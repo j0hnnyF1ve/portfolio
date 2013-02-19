@@ -1,0 +1,83 @@
+/*
+CURL SAMPLE
+
+Below is a segment of cURL code I used in an automated cron job that sends an update to
+a site requiring login.
+The first segment performs a login into this website.
+The second segment posts data to a form within the website.
+*/
+
+
+$url = 'http://www.myurl.com';
+$username = 'myUsername';
+$password = 'myPassword';
+      
+$ch = curl_init($url);
+$postVars = "user_name=$username&user_pass=$password";
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $postVars);
+curl_setopt($ch, CURLOPT_COOKIEJAR, "cookie.txt");
+curl_setopt($ch, CURLOPT_COOKIEFILE, "cookie.txt");
+curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)");
+curl_setopt($ch, CURLOPT_TIMEOUT,600);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+curl_setopt($ch, CURLOPT_HEADER, 0);
+curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
+$page = curl_exec($ch);
+curl_close($ch);
+
+// check to see if we're on the page that we want to post an update to
+if(strpos($page, 'Page to Update') !== false)
+{
+  // create a cURL request that will post an update to the form handler on the page
+  $in_param1 = 'myparam1';
+  $params = "param1=$in_param1";
+  
+  $url = 'http://www.myurl.com/pageToPostUpdate.php';
+
+  $ch = curl_init();
+  curl_setopt($ch, CURLOPT_URL, $url);
+  curl_setopt($ch, CURLOPT_POST, 1);
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $params);
+  curl_setopt($ch, CURLOPT_COOKIEFILE, "cookie.txt");
+  curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)");
+  curl_setopt($ch, CURLOPT_TIMEOUT,600);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+  curl_setopt($ch, CURLOPT_HEADER, 0);
+  curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
+  
+  $result = curl_exec($ch);
+  
+  // if a result is returned
+  if($result !== false)
+  {
+    // if we get to the submission successful screen, then log a successful update
+    if(strpos($result, 'Your submission was successful') !== false)
+    {
+      logUpdate(date('Y-m-d H:i:s') . ' - Update Successful!' . chr(10) );
+    }
+    // else log an unsuccessful update, and spit out the result page to the log
+    else
+    {
+      logUpdate(date('Y-m-d H:i:s') . ' - Error: Submission was not successful, result page below: ' . chr(10) . $result . chr(10));
+    }
+  }
+  // else, there may have been a problem with the curl post, so log the cURL error
+  else
+  {
+    logUpdate(date('Y-m-d H:i:s') . ' - Error: ' . curl_error() . chr(10) );
+  }
+  curl_close($ch);
+}
+// we weren't able to login, so post that to the log
+else
+{
+  logUpdate(date('Y-m-d H:i:s') . ' - Error: Unable to login' . chr(10) );
+}
+
+function logUpdate($string)
+{
+   $fp = fopen('logs/update.log', 'a');
+   fwrite($fp, $string);
+   fclose($fp);
+}

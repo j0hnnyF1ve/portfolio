@@ -1,0 +1,104 @@
+/*
+AJAX SAMPLE - CLIENT SIDE HANDLER
+Below is an example of an client side, Javascript ajax call to the operation loadMessageStats.
+jQuery is the library of choice for making DOM manipulations and AJAX calls due to ease of use
+as well as cross browser compatibility
+*/
+
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+function loadMessageStats()
+{
+  // get the serverID from the Server dropdown
+  var serverID = $("#MessageStatsServer").val();
+  var errorMessage = '';
+  if(serverID == '') { errorMessage = 'A Server was not selected, please select a server using the dropdown below'; }
+
+  // display an error message and do not continue if a server is not selected  
+  if(errorMessage != '')
+  {
+    $("#ErrorDiv div").html(errorMessage);
+    $("#ErrorDiv").fadeIn();
+    setTimeout(function() { $("#ErrorDiv").fadeOut(); }, 3000);
+    return;
+  }
+  
+  disableForm();
+  $.ajax
+  ({
+    url: 'ajax/ajax_functions.php',
+    data: 'op=loadMessageStats&serverID=' + serverID,
+
+    dataType: 'json',
+    type: 'post',
+    complete: enableForm,
+    success: function(responseData, textStatus, xhr)
+    {
+      // if the call was unsuccessful, then display an error message
+      if(responseData.success == false)
+      {
+        $("#MessageStatsTable").html('');
+        $("#ErrorDiv div").html(responseData.message);
+        $("#ErrorDiv").fadeIn();
+        setTimeout(function() { $("#ErrorDiv").fadeOut(); }, 3000);
+        return;
+      }
+      // if the response was successful, populate the message stats table with the response
+      else
+      {
+        $("#SuccessDiv div").html(responseData.message);
+        $("#SuccessDiv").fadeIn();
+        setTimeout(function() { $("#SuccessDiv").fadeOut(); }, 3000);
+      }
+
+      // empty the table
+      var htmlCode = '';
+      $("#MessageStatsTable").html('');
+      
+      if(responseData.data.length > 0)
+      {
+        // create the header row
+        htmlCode += '<thead><tr>';
+        for(index in responseData.data[0])
+        {
+          if(index != 'messid' && index != 'status')
+          {
+            htmlCode += '<th>' + index + '</th>';
+          }
+        }
+        htmlCode += '</tr></thead>';
+        
+
+        // iterate through the response and populate the message stats table
+        for(var i=0; i < responseData.data.length; i++)
+        {
+          var messageStatsEntry = responseData.data[i];
+          var headerRow = '';
+          var dataRow = '';
+          
+          dataRow += ((i%2) != 0) ? '<tr class="alt-row">' : '<tr>';
+          var colCount = 0;
+          for(index in messageStatsEntry)
+          {
+            if(index != 'messid' && index != 'status')
+            {
+              dataRow += '<td>' + messageStatsEntry[index] + '</td>';
+              colCount++;
+            }
+          }
+          dataRow += '</tr>';
+
+          headerRow += ((i%2) != 0) ? '<tr class="alt-row">' : '<tr>';
+          headerRow += '<td colspan="' + colCount + '" style="font-weight: 800;">';
+          headerRow += '<div>Message ID: ' + messageStatsEntry['messid']+ '</div>'
+          headerRow += 'Status: ' + messageStatsEntry['status'] + '</div>'
+          headerRow += '</td>';
+          headerRow += '</tr>';
+          htmlCode += headerRow + dataRow;
+        }
+        $("#MessageStatsTable").html(htmlCode);
+      }
+    }
+  });
+}
+</script>

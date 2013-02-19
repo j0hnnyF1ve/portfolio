@@ -1,0 +1,61 @@
+/*
+AJAX SAMPLE - SERVER SIDE HANDLER
+This is a common way that I handle AJAX calls on the server side.  Often times I will have a
+single switch statement that processes an op argument that is expected from every AJAX call.
+
+Based on that op, a function is delegated to perform the operation requested by the client.
+
+I can add security if needed to the top to ensure login info is supplied, or only certain IPs
+are allowed to access the service.
+*/
+
+// contains server level operations that handle the client's request
+require_once('../include/functions.php'); 
+
+$op = $_POST['op'];
+switch($op)
+{
+  case 'saveServerInfo':
+    $response = saveServerInfo($_POST);
+    break;
+  case 'unsubscribeEmails':
+    $response = unsubscribeEmails($_POST);
+    break;
+  case 'loadMessageStats':
+    $serverID = $_POST['serverID'];
+    $response = loadMessageStats($serverID);
+    break;
+  case 'loadCurrentQueue':
+    $serverID = $_POST['serverID'];
+    $response = loadCurrentQueue($serverID);
+    break;
+  default:
+    $response = createMessage(false, 'A valid operation ID was not supplied');
+    break;
+}
+if(!empty($response))
+{
+  echo createJsonMessage($response['success'], $response['message'], $response['data']);  
+}
+
+/*
+createMessage creates a specific formatted array for use throughout the server
+success is a boolean (true or false) indicating if the operation was successful
+message is an optional message to display to the user
+data is an array containing data to be passed back
+*/
+function createMessage($success, $message = '', $data = array())
+{
+  return array('success' => $success, 'message' => $message, 'data' => $data);
+}
+
+/*
+createJsonMessage takes a specific formatted array for use throughout the server, and outputs a json encoded string
+success is a boolean (true or false) indicating if the operation was successful
+message is an optional message to display to the user
+data is an array containing data to be passed back
+*/
+function createJsonMessage($success, $message = '', $data = array() )
+{
+  return json_encode(createMessage($success, $message, $data) );
+}
