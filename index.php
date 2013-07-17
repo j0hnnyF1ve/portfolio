@@ -1,52 +1,37 @@
-<?php
-ob_start();
-
-$page = (empty($_GET['page']) ? 'portfolio' : $_GET['page'] ) . '.php';
-
-if(is_file('content/' . $page))
-{
-   include('content/' . $page);
-   $content = ob_get_contents();
-}
-else
-{
-   include('content/not_found.php');
-   $content = ob_get_contents();
-}
-
-
-ob_clean();
-?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<?php require_once('include/config.php'); ?>
+<?php include('include/header.php');?>
+<!DOCTYPE html>
+<html>
 <head>
-   <title>John Pangilinan's Portfolio</title> 
-   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-   <link href="style.css" rel="stylesheet"  type="text/css" />
+   <title>The Online Portfolio of John Pangilinan</title> 
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+   <link href="css/style.css" rel="stylesheet"  type="text/css" />
 </head>
 
 <body> 
    <div id="wrapper">
       <div id="header">
-         <div id="toppy">
-            <h1>Welcome to John Pangilinan's Portfolio page!</h1>
-         </div> <!-- END TOPPY -->
+         <div id="top">
+            <h1 class="title">
+               <span class="name">John Pangilinan</span>
+               <span class="subheading">Online Portfolio</span>
+            </h1>
+         </div> <!-- END TOP -->
          <div id="nav">
-         <ul>
-         <li><a href="index.php?page=portfolio" <?php if($page == 'portfolio.php' || empty($page)) echo 'class="selected"'; ?> >Home</a></li>
-         <li><a href="index.php?page=proficiencies" <?php if($page == 'proficiencies.php') echo 'class="selected"'; ?> >Proficiencies</a></li>
-         <li><a href="index.php?page=design_philosophy" <?php if($page == 'design_philosophy.php') echo 'class="selected"'; ?> >Design Philosophy</a></li>
-         <li><a href="index.php?page=code_samples" <?php if($page == 'code_samples.php') echo 'class="selected"'; ?> >Code Samples</a></li>
-         <li><a target="new" href="../resume/index.php">Resume</a></li>
-<!--
-         <li><a href="javascript: void(0);" >Contact Me</a></li>
--->
-         </ul>
-         
+            <ul id="MenuNav">
+               <?php echo $menuHtml; ?>
+               <li><a class="contactmelink" href="javascript: void(0);" >Contact Me</a></li>
+            </ul>
+            <select id="DropdownNav">
+               <option value="">Home</option>
+               <option value="about">About</option>
+               <option value="proficiencies">Proficiencies</option>
+               <option value="design_philosophy">Design Philosophy</option>
+               <option value="code_samples">Code Samples</option>
+            </select>
+            <a id="ContactMeLink" class="contactmelink" href="javascript: void(0);" >Contact Me</a>
          </div> <!-- END NAV -->
-         
       </div> <!-- END HEADER -->
    
    
@@ -57,10 +42,25 @@ ob_clean();
       </div>  <!--END CONTENT-->
    
    </div>  <!--END WRAP--> 
-   
    <div id="footer">
-      <p>© <?php echo date("Y"); ?> JohnPangilinan.com </a></p>
+      <p>&copy; 2010-<?php echo date("Y"); ?> JohnPangilinan.com </a></p>
    </div> <!--END FOOTER-->
+   <script type="text/javascript" src="js/jquery.js"></script>
+   <script type="text/javascript" src="js/main.js"></script>
+   <script type="text/javascript" src="js/jquery-ui-1.8.4.custom.min.js"></script>
+   <script type="text/javascript" src="js/jquery.simplemodal.1.4.4.min.js"></script>
+   <script type="text/javascript" src="js/component/Dialog.js"></script>
 
+   <?php echo $scriptHtml; ?>
+   <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+     ga('create', 'UA-42389290-2', 'johnpangilinan.com');
+     ga('send', 'pageview');
+
+   </script>
 </body>
 </html>

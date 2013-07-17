@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<portfolio>
+  <entry>
+    <name>Photo Gallery - Beaches and Scenery of Thailand</name>
+    <link><![CDATA[http://photogallery.aroadalittlelesstraveled.com/index.php?page=gallery&galleryType=special-slideshow&currentGallery=Beaches%20and%20Scenery%20of%20Thailand
+    ]]></link>
+    <imgSrc>img/thailandPreview125x90.jpg</imgSrc>
+    <description><![CDATA[
+      <p>The first entry into my new side project, a photo gallery templating system.  For basic photo galleries, sites like Facebook, Instagram, and Flickr work great, but I wanted something where I could have more control on the display of the images.  This one is more of a simple slideshow with animation and text, it makes for a decent display of my front-end abilities.</p>
+    ]]></description>
+  </entry>
+  <entry>
+    <name>Magnify 360 Projects</name>
+    <link><![CDATA[index.php?page=magnify360]]></link>
+    <imgSrc>img/magnify360-logo.jpg</imgSrc>
+    <description><![CDATA[
+      <p>Magnify360.com is a company that does website optimization for large and medium sized companies. I've done work ranging from setting up a backend site to enable lead generation to front end development. Most of the work I've done there involve taking Photoshop mockups from various designers, slicing them up, andcreating HTML/Javascript/CSS code out of it that works across all browsers. I make every effort to make sure sites created are pixel perfect and designed to spec. You can take a look at some of my better efforts by clicking on the link.</p>
+    ]]></description>
+  </entry>
+  <entry>
+    <name>xAutomator</name>
+    <link><![CDATA[xAutomator/login.php]]></link>
+    <imgSrc>img/xAutomator125x90.png</imgSrc>
+    <description><![CDATA[
+      <p>xAutomator was an internal project for a marketing company I do work for every so often with. The purpose of the xAutomator is to help automate and simplify scheduling tasks that would     otherwise be done by hand.  The linked site is a simplified version of the actual site, but feel free  to test drive it a bit.</p>
+    ]]></description>
+  </entry>
+  <entry>
+    <name>MonsterTrade.com</name>
+    <link><![CDATA[http://www.monstertrade.com/professor/mainProfessor.phtml]]></link>
+    <imgSrc>img/monstertrade.com125x90.png</imgSrc>
+    <description><![CDATA[
+      <p>MonsterTrade.com was a site that I did some freelance work for back in 2006. The premise of the site was giving students a central meeting ground to conduct trades for books, computers, and other     stuff that students might need. The site itself isn't active anymore, and I didn't do the principal  design for the website itself (it does load a bit slow, and the HTML code is a bit bloated), but the first major project that I did outside of a full time job is still present in the form of the Professor Ratings page on the site.</p>
+
+      <p>I also did some miscellaneous updates to the site as well, but the Professor Ratings section was definitely the major addition that I and a colleague of mine made to the site.  Since MonsterTrade.com my skill set has improved immensely, but I still look back fondly on this project, as it's a milestone representing what I was able to accomplish in only six months in this field.</p>
+    ]]></description>
+  </entry>
+
+<!--
+  <entry>
+    <name></name>
+    <link><![CDATA[ ]]></link>
+    <imgSrc></imgSrc>
+    <description><![CDATA[
+
+    ]]></description>
+  </entry>
+-->
+</portfolio>

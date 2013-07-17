@@ -1,0 +1,16 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+RewriteEngine On
+RewriteBase /portfolio
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule	^(.*)$	index.php?page=$1 [L]
+
+
+
+# RewriteRule   ^/~([^/]+)/?(.*)    /u/$1/$2  [R]
+# RewriteRule   ^/([uge])/([^/]+)$  /$1/$2/   [R]

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<design_philosophy>
+  <entry>
+    <title><![CDATA[First, Work Smart, then Hard]]></title>
+    <description><![CDATA[
+      <p>Working smarter means that thoughtful design before starting a task can lead to savings of time, as well as software and websites that can be easily modified later because the design decisions early on allow the adding of features later on. Working hard without figuring out the goal of the project leads to "virtual spinning of wheels".</p>
+    ]]></description>
+  </entry>
+  <entry>
+    <title><![CDATA[Avoid Feature Creep]]></title>
+    <description><![CDATA[
+      <p>Add features when there's a meaningful reason to add them. I've learned during the course of my career that the best way to avoid feature creep is to add features as they're demanded from the user base.  As a web developer, this tenet comes especially in handy because the nature of website is that you're never really done, the website evolves with the user base as the      users become acclimated to the website, and demand more features as needs crop up through the natural process of using a given website. I've actually found that adding features when they're not demanded often leads to wasted time as well as unuses or lackluster features.</p>
+    ]]></description>
+  </entry>
+  <entry>
+    <title><![CDATA[Automate! Automate! Automate!]]></title>
+    <description><![CDATA[
+      <p>Whenever possible, automate tasks that are easily repeatable and reproducible. During my time at Reflexive Entertainment, I learned a lot about using technology and software to maximize productivity and save time.</p>
+    ]]></description>
+  </entry>
+  <entry>
+    <title><![CDATA[Make it Modular!]]></title>
+    <description><![CDATA[
+      <p>Make software components modular so they can be reused and fitted into other applications later. I try to go with a "plug-n-play" approach to my modules, so that I can reuse modules that I've written earlier in other applications down the line.</p>
+    ]]></description>
+  </entry>
+<!--
+  <entry>
+    <title><![CDATA[]]></title>
+    <description><![CDATA[
+
+    ]]></description>
+  </entry>
+-->
+</design_philosophy>

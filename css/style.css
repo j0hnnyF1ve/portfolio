@@ -1,0 +1,483 @@
+/* default elements */
+*
+{
+  margin:0px;
+  padding:0px; 
+}
+
+body
+{
+  margin: 0;
+  padding:0;
+  list-style:none;
+  font-size: 12px; 
+  font-family: Verdana,'Lucida Grande', Arial, Helvetica, sans-serif; 
+  font-weight: normal;
+
+}
+
+p
+{
+  width: 80%;
+  color:#000;
+	margin: 15px 0;
+  line-height: 1.6em;
+}
+
+a
+{
+  color:#00628c;
+  font-size:1em; 
+  text-decoration:none;
+	
+	outline: none;
+	-moz-outline-style: none;
+}
+
+a:link
+{
+  text-decoration:none;
+}
+
+a:visited
+{
+  text-decoration:none;
+}
+
+
+a:hover
+{
+  color:#9e0000; 
+  text-decoration:none;
+/*  border:1px dotted #4e4e4e; */
+}
+
+h1, h2, h3
+{
+  font-weight: normal;
+  margin: 3px 0;
+}
+h1
+{ 
+  font-size: 3.5em;
+  color: #000;
+  padding-bottom:10px;
+}
+
+h2
+{ 
+  font-size: 2em;
+  color: #000;
+  padding-bottom: 5px;
+  padding-top: 10px; 
+  margin-bottom: 35px;
+  border-bottom: solid 1px #BBBBBB;
+}
+
+h3
+{ 
+  font-size: 1.4em;
+  font-weight: 800;
+  color: #000;
+}
+
+h4
+{
+  font-size: 1.2em; 
+}
+
+ol, ul
+{
+  margin: 0px;
+  padding: 0px;
+}
+ul
+{
+  list-style-type: none;
+}
+
+ol li, ul li
+{
+  margin: 0px 0px 0px 0px;
+  padding: 10px 0 10px;
+}
+
+	
+/* Layout */
+
+#header, #content, #footer
+{
+  width: auto;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+#wrapper 
+{
+  position: relative;
+  max-width: 1000px;
+  min-height: 500px;
+  margin-top: 0pt;
+  margin-right: auto;
+  margin-left: auto;
+  background:transparent;
+}
+
+#header 
+{
+  margin-bottom: 10px;
+}
+
+#top
+{
+  background-color:transparent;
+  padding: 5px 0 35px 0;
+  width: auto;
+}
+
+#top h1
+{ 
+  position: relative;
+  display: inline;
+  color: #000;
+  font-family: Palatino Linotype, Georgia, serif;
+  font-weight:normal;
+  padding-bottom:25px;
+  margin: 0;
+}
+
+#top h1 .name
+{
+  font-size: 1em;
+  font-weight: 700;
+  z-index: 0;
+}
+
+#top h1 .subheading
+{
+  position: absolute;
+  color: #9e0000;
+  font-size: 0.65em;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  text-transform: capitalize;
+}
+
+#nav
+{
+	width: 100%;
+	overflow: hidden;
+  background-color: #e8f3ff;
+  padding: 5px 0;
+  border-top: 1px dotted #bbbbbb;
+  border-bottom: 1px dotted #bbbbbb;
+}
+
+#nav ul
+{
+  list-style:none;
+  margin: 0 auto ;
+}
+
+#nav li
+{
+  display:inline;
+  margin-bottom:0px;
+  padding-bottom:0px;
+  margin: 0 25px 0 0;
+}
+
+#nav ul li a
+{
+  display:inline;
+  margin: 3px 10px 0 2px;
+  color: #4e4e4e;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+#nav  li a:hover
+{
+  color:#9e0000;
+}
+
+#nav .selected
+{
+  color: #9e0000;
+}
+
+#MenuNav { display: block; }
+#DropdownNav { display: none; }
+#ContactMeLink { display: none; }
+
+#content 
+{
+  background-color:transparent;
+  overflow: auto;
+  margin: 0 0 10px;
+}
+
+#footer 
+{
+  clear: both;
+  margin: 30px auto 0;
+  background-color:transparent;
+  text-align:center;
+  border-top:1px solid #eaeaea;
+}
+
+#footer p
+{
+  font-size: 0.9em;
+  line-height: 3em;
+  font-family: arial;
+  font-weight: normal;
+  color: #5b5b5b;
+  text-align: center;
+}
+
+.col1
+{
+  background-color:transparent;
+  margin-top:10px;
+  margin-bottom:5px;
+  width: 100%;
+}
+
+.col1 .entry
+{
+	width: 100%;
+	margin: 0px 0px 20px;
+	overflow: hidden;
+}
+
+.col1 .entry .thumb
+{
+	float: left;
+	text-align: right;
+	width: 205px;
+}
+
+.col1 .entry .thumb img
+{
+	border: solid 1px;
+}
+
+
+.col1 .entry .description
+{
+	float: left;
+	margin-left: 25px;
+	width: 700px;
+}
+
+.col1 .entry .description p
+{
+  margin-top: 10px; 
+}
+
+
+.bold
+{
+	font-weight: 800;
+}
+
+
+/* Page specific styles */
+.portfolio h3
+{
+  margin-top: 0;
+}
+.portfolio .entry
+{
+  border-top: dotted 1px #aaa;
+  padding-top: 20px;
+}
+.portfolio .entry:nth-child(2)
+{
+  border-top: none;
+  padding-top: 0;
+}
+.portfolio .entry p
+{
+  width: 90%;
+}
+
+
+.proficiencies ul li
+{
+  border-top: dotted 1px #aaa;
+}
+.proficiencies ul li:nth-child(1)
+{
+  border-top: none;
+  padding-top: 0;
+}
+
+.proficiencies ul li p
+{
+  margin: 20px 0;
+}
+
+.proficiencies h4 
+{
+  margin: 5px 0 15px; 
+}
+.proficiencies .rank
+{
+  color: #9e0000;
+}
+
+
+.design_philosophy ul li
+{
+  border-top: dotted 1px #aaa;
+}
+.design_philosophy ul li:nth-child(1)
+{
+  border-top: none;
+}
+.design_philosophy ul li p
+{
+  width: 80%;
+  margin: 10px 0;
+}
+
+
+.code_samples ul li h3
+{
+  margin: 10px 0;
+}
+
+.code_samples ul li
+{
+  padding: 10px 0 0;
+  border-top: dotted 1px #aaa;
+  margin: 30px 0 0 0;
+}
+
+.code_samples ul li:nth-child(1)
+{
+  border-top: none;
+  margin-top: 0px;
+}
+.modal
+{
+  display: none; overflow: hidden; margin: 10px; height: 95%;
+}
+.menubar
+{
+  overflow: hidden; width: 97%; margin-bottom: 5px;  
+}
+.closeButton
+{
+  float: right; padding: 5px;
+  background-color: #d30000;
+  color: #fff;
+  font-weight: 800;  
+  font-family: Verdana, sans-serif;
+  width: 50px;
+}
+#CodeSampleModal .display
+{
+  border: solid 1px black; 
+  font: 1em Courier; 
+  background-color: rgb(239, 255, 255); 
+  width: 97%; 
+  max-height: 90%; 
+  overflow: auto;
+}
+#ContactForm .display
+{
+  padding: 0 10px 10px;
+}
+
+#ContactForm .display div
+{
+  margin: 3px 0;
+}
+
+#ContactForm input[type=text], #ContactForm textarea
+{
+  font-size: 1.6em;
+  width: 100%;
+}
+
+#ContactForm .sendButton
+{
+  width: 100px;
+  padding: 5px;
+}
+
+#ContactForm .body
+{
+  height: 150px;
+}
+
+#ContactForm .statusMessage
+{
+  margin-top: 5px;
+  color: #f00;
+}
+
+#ContactForm ul
+{
+  margin-top: 5px;
+  list-style-type: disc;
+}
+#ContactForm ul li
+{
+  margin: 0 0 3px 17px;
+  padding: 0;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen
+and (min-device-width : 320px)
+and (max-device-width : 600px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media screen
+and (min-device-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media screen
+and (max-device-width : 600px) {
+/* Styles */
+  body 
+  {
+    font-size: 62.5%;
+  }
+
+  #nav li
+  {
+    font-size: 1.5em;
+    margin-right: 5px;
+  }
+
+  p 
+  {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .portfolio .entry .thumb
+  {
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .portfolio .entry .description
+  {
+    clear: both;
+    margin-left: 0;
+  }
+
+  #MenuNav { display: none; }
+  #DropdownNav { display: inline; font-size: 2.5em;}
+  #ContactMeLink { display: inline; font-size: 2.5em; margin-left: 20px; }
+}
