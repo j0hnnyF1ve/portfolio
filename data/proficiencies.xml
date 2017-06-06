@@ -1,34 +1,49 @@
 <?xml version="1.0"?>
 <proficiencies>
   <entry>
-    <title><![CDATA[ PHP ]]></title>
-    <rank>Proficient</rank>
-    <description><![CDATA[
-      <p>
-        PHP is my bread and butter server-side language.  While frameworks and languages like Node.js, Ruby on Rails, and Python have become more popular, I still find PHP a great language for doing all things web, as I've used it to do everything from image processing/creating to proxying remote websites.  While I initially started out with .NET when working on the web, I enjoyed how quick it was to write PHP code and get it on the web, and with good design practices, it can still serve a variety of needs well.
-      </p>
-    ]]></description>  
-  </entry>
-  <entry>
     <title><![CDATA[ Javascript/Ajax/HTML5 ]]></title>
     <rank>Proficient</rank>
     <description><![CDATA[
       <p>
-        There's seemingly no hotter language than Javascript right now, as it seems these days new frameworks are popping up everyday, and Javascript is now being used to do everything from server-side programming (Node.js) to building online games. And with HTML5 compatibility being spread across most major platforms, including modern mobile browsers, we have a wide array of devices to both build for and support.
+        There's seemingly no hotter language than Javascript right now, as it seems these days new frameworks are popping up everyday, and Javascript is now being used to do everything from server-side programming (Node.js) to building online games. And with ECMAScript 5, and now 6 compatibility being spread across most major platforms, mobile and otherwise, we now have a standardized development environment that can run an array of applications, all being written using Javascript.
       </p>
       <p>
-        All this change is quite hectic, but fortunately because I learned Javascript when libraries such as jQuery were just starting to be written gave me a good background in both hand-coded Javascript as well as using libraries and frameworks to get things done faster.
+        All this change is quite hectic, but fortunately because I learned Javascript when libraries such as jQuery were just starting to be written gave me a good background in both hand-coded Javascript as well as using libraries and frameworks to get things done faster.  And given that I experienced the time when Internet Explorer 6 was the dominant browser, I have an intimate appreciation of the fact that web standards are now the dejure baseline of web development.  The "write once, deploy many" philosophy that Java once aspired to has now been reached via Javascript.
       </p>
       <p>
-        Also, at Planetwide Games, I had done pure Javascript development for a full year (nothing but Javascript and Ajax full-time!), so I feel I'm very familiar about the pitfalls of browser incompatibilities and issues with features not being supported for a particular flavor of Javascript for a particular browser. 
+        Early on my career at Planetwide Games, I had the opportunity to do some novel (at the time, 2007) pure Javascript development, such as image rotation at the time the canvas element wasn't widely supported.  And my background learning Javascript by hand has helped me work with or without jQuery, AngularJS, and other prominent JS frameworks.
       </p>
       <p>
-        And though the web will continue to develop, I'm pretty confident that I can adapt to the new changes coming up the pipeline.
+        My time at ABC/Disney gave me a chance to work on their local news web application, and also gave me an opportunity to take a deep dive with the AngularJS framework, MongoDB, and NodeJS.
+      </p>
+      <p>
+        As a result of all these experiences, I'm pretty confident that I can adapt to the new changes coming up the pipeline.
       </p>
     ]]></description>
   </entry>
   <entry>
-    <title><![CDATA[ CSS and CSS-P Layouts ]]></title>
+    <title><![CDATA[ PHP ]]></title>
+    <rank>Proficient</rank>
+    <description><![CDATA[
+      <p>
+        I have worked with PHP for about as long as I've been doing development, 11+ years running since 2006.  While frameworks and languages like Node.js, Ruby on Rails, and Python have become more popular, I still find PHP a great language for doing all things web, as I've used it to do everything from image processing/creating to proxying remote websites.  While I initially started out with .NET when working on the web, I enjoyed how quick it was to write PHP code and get it on the web, and with good design practices, it can still serve a variety of needs well.
+      </p>
+    ]]></description>
+  </entry>
+  <entry>
+    <title><![CDATA[ HTML &amp; HTML5 ]]></title>
+    <rank>Proficient</rank>
+    <description><![CDATA[
+      <p>
+        I learned HTML by hand coding everything as opposed to using a WIZIWYG like Dreamweaver, so much of what I do in terms of development is using good old notepad or a similar text based editor to create my web pages.So needless to say, I'm pretty well versed and comfortable in building entire websites from scratch by hand-coding them.
+      </p>
+      <p>
+        More recently, I've started to become more adept at using frameworks and templating to separate data from presentation.
+      </p>
+    ]]></description>
+  </entry>
+  <entry>
+    <title><![CDATA[ CSS ]]></title>
     <rank>Proficient</rank>
     <description><![CDATA[
       <p>
@@ -37,35 +52,47 @@
     ]]></description>
   </entry>
   <entry>
-    <title><![CDATA[ SQL Server/MySQL and other database management systems ]]></title>
+    <title><![CDATA[ NodeJS ]]></title>
     <rank>Good</rank>
     <description><![CDATA[
       <p>
-        I've been working with DBMS (Database Management Systems) for almost as long as I've been doing development, so I'm well versed with writing SQL queries, joins, stored procs for SQL Server and MySQL based applications.  So I feel comfortable working at the database layer as a developer, but to warn you I haven't done much on the Administrator side, I've mostly done SQL in order to make my applications work well with the database layer.            
+        I have a familiarity of NodeJS, and it's a comfortable environment to develop in, due to my experience with Javascript development as a whole.  During my time at Disney, it was convenient to be able to run my code written for the client and MongoDB within the same context.
       </p>
     ]]></description>
   </entry>
   <entry>
-    <title><![CDATA[ HTML &amp; HTML5]]></title>
+    <title><![CDATA[ AngularJS, React.js and other JS Frameworks ]]></title>
     <rank>Good</rank>
     <description><![CDATA[
       <p>
-        I learned HTML by hand coding everything as opposed to using a WIZIWYG like Dreamweaver, so much of what I do in terms of development is using good old notepad or a similar text based editor to create my web pages.So needless to say, I'm pretty well versed and comfortable in building entire websites from scratch by hand-coding them.
-      </p>
-      <p>
-        My experience with WYSIWYG editors is fairly limited I must admit, with limited experience with Dreamweaver and Frontpage when I first started out.  I've often found that the code generated from these applications has not been to my liking, so I often hand code everything to make sure that the code is easily modifiable and meets my expectations.            
-      </p>
-      <p>
-        More recently, I've started to become more adept at using frameworks and templating to separate data from presentation.
+        I had a pretty good experience with AngularJS 1+, using it to develop the local ABC video pages that may still be online as of 2017.  While AngularJS at the time was big on the MVVM (Model View View Model) architecture, the newer frameworks, such as React.js and Angular 2+, have moved the point of focus to Web Components.  Directives were my favorite part of Angular 1+, and it's a good approach to describe your layout in HTML, while being able to define new HTML tag behavior through Web Components.
       </p>
     ]]></description>
   </entry>
   <entry>
-    <title><![CDATA[ C# and/or .NET based Web development ]]></title>
-    <rank>Some experience, not my forte</rank>
+    <title><![CDATA[ MySQL/SQL Server/PostGreSQL and other database management systems ]]></title>
+    <rank>Good</rank>
     <description><![CDATA[
       <p>
-        My experience with C# and .NET based technologies have been mostly on the maintenance side. Often times, when I've come into a company that uses .NET for the web applications, they're usually in the process of migrating to a LAMP stack, so often times I've used C# and .NET in terms of maintaining or transferring functionality to a PHP based system.  That's not to say that I can't develop in .NET, but my forte is definitely on the LAMP and HTML5/Javascript side at the moment.
+        I've been working with RDBMS (Relational Database Management Systems) for almost as long as I've been doing development, so I'm well versed with writing SQL queries, joins, stored procs for SQL Server and MySQL based applications.  My background with DBMS is more as of a developer, and less of an administrator.
+      </p>
+    ]]></description>
+  </entry>
+  <entry>
+    <title><![CDATA[ MongoDB and other NoSQL databases ]]></title>
+    <rank>Familiar</rank>
+    <description><![CDATA[
+      <p>
+        I did some work with MongoDB during my time at Disney/ABC, utilizing MongoDB for analytics gathering and reporting.  A good choice for storing and retrieving unstructured data, and distributing it in a sharded environment.  However, relational data is better stored using a traditional RBDMS.  I prefer to think of these two database technologies as complementary to each other, rather than a replacement for one or the other.
+      </p>
+    ]]></description>
+  </entry>
+  <entry>
+    <title><![CDATA[ Ionic & PhoneGap/Cordova ]]></title>
+    <rank>Familiar</rank>
+    <description><![CDATA[
+      <p>
+        I've used Ionic intermittently for personal projects, and I find it to be a good way to get a mobile app experience without having to learn a brand new development environment.  By following web standards, we can get some pretty good UI in a mobile app, while only experiencing slight performance degradation.  It's important to consider what kind of application we're building when we're using Ionic/PhoneGap, as graphic heavy, GPU intensive tasks such as games would probably be better done natively.
       </p>
     ]]></description>
   </entry>
@@ -74,7 +101,7 @@
     <rank>Some experience, not my forte</rank>
     <description><![CDATA[
       <p>
-        I have a little bit of experience developing iFramed applications using the Facebook platform a few years ago.  My experience with Facebook is that I found putting up applications fairly easy to do on the Facebook platform, but I had to watch out for changes with their API.            
+        I have a little bit of experience developing iFramed applications using the Facebook platform several years ago.  My experience with Facebook is that I found putting up applications fairly easy to do on the Facebook platform, but I had to watch out for changes with their API.
       </p>
       <p>
         I also maintain my own Facebook page, A Road A Little Less Traveled, so I know a little bit about pages as well.
@@ -93,19 +120,6 @@
       </p>
     ]]></description>
   </entry>
-  <entry>
-    <title><![CDATA[Actionscript, Flash, Phonegap and other emerging technologies]]></title>
-    <rank>Good at acquiring new skills</rank>
-    <description><![CDATA[
-      <p>
-        I have fairly limited experience using Actionscript, but during my limited time using it I found it very similar to Javascript and fun to use, so I know in the case of an application using Actionscript I can pick it up pretty easily.
-      </p>
-      <p>
-        Mobile development and developing websites for mobile devices is another area that I'm also interested in learning and getting better at, as the mobile market is growing daily, and web and application developers that are proficient at developing mobile-friendly websites are people that are making our future internet that much better, and that's something I definitely want to be a part of.
-      </p>
-    ]]></description>
-  </entry>
-
 <!--
   <entry>
     <title><![CDATA[]]></title>
