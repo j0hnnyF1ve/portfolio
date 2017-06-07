@@ -3,19 +3,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>The Online Portfolio of John Pangilinan</title> 
+   <title>The Online Portfolio of John Pangilinan</title>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
-   <link href="css/style.css" rel="stylesheet"  type="text/css" />
+  <link href="css/styleNew.css" rel="stylesheet"  type="text/css" />
 </head>
 
-<body> 
+<body>
    <div id="wrapper">
       <div id="header">
          <div id="top">
             <h1 class="title">
                <span class="name">John Pangilinan</span>
-               <span class="subheading">Online Portfolio</span>
+               <span class="subheading">Full Stack Developer</span>
             </h1>
          </div> <!-- END TOP -->
          <div id="nav">
@@ -33,15 +33,15 @@
             <a id="ContactMeLink" class="contactmelink" href="javascript: void(0);" >Contact Me</a>
          </div> <!-- END NAV -->
       </div> <!-- END HEADER -->
-   
-   
-      <div id="content"> 
+
+
+      <div id="content">
       <?php
          echo $content;
       ?>
       </div>  <!--END CONTENT-->
-   
-   </div>  <!--END WRAP--> 
+
+   </div>  <!--END WRAP-->
    <div id="footer">
       <p>&copy; 2010-<?php echo date("Y"); ?> JohnPangilinan.com </a></p>
    </div> <!--END FOOTER-->

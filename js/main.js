@@ -3,7 +3,7 @@
 
 var contactForm;
 
-$(function() 
+$(function()
 {
   setSelectedNav( getPage() );
   $('#DropdownNav').on('change', dropdownNavHandler);
@@ -21,7 +21,7 @@ $(function()
   formHtml += '<div class="endForm"><button class="sendButton" id="EmailSend">Send Email</button></div>';
   formHtml += '<div class="statusMessage"></div>';
 
-  contactForm = new Dialog( {width: "40%", height: "550px", id: 'ContactForm'} );
+  contactForm = new Dialog( {width: "80%", height: "475px", id: 'ContactForm'} );
   contactForm.changeDisplay(formHtml);
 
   $('#ContactForm .sendButton').on('click', sendButtonHandler );
@@ -89,9 +89,9 @@ var sendEmail = function()
         else
         {
           var message = '';
-          if(response.message.length > 0) 
-          { 
-            message = '<div>' + response.message + '<ul style="text-transform: capitalize">' + message + '</ul>'; 
+          if(response.message.length > 0)
+          {
+            message = '<div>' + response.message + '<ul style="text-transform: capitalize">' + message + '</ul>';
             for(index in response.data)
             {
               message += '<li>' + response.data[index] + '</li>';
@@ -131,7 +131,7 @@ var setSelectedNav = function(page)
   }
   else
   {
-    $('#nav a:eq(0)').addClass('selected'); 
+    $('#nav a:eq(0)').addClass('selected');
     $('#DropdownNav').val('');
   }
 }

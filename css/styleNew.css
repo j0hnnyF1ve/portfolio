@@ -1,0 +1,83 @@
+/* default styles */
+body { font: 14px 'Raleway', Arial; margin: 0; }
+a { color: rgb(15, 116, 193); text-decoration: none; }
+h1, h2, h3, h4, h5 { font-size: 1em; margin: 5px 0; }
+ul { list-style-type: none; margin: 0; padding: 0; }
+p { line-height: 1.5em; }
+
+/* Header styles */
+#header { position: fixed; background-color: rgb(255,255,255); width: 100%; }
+#header #top { margin-bottom: 10px; padding-top: 10px; }
+#header h1 { text-align: center; margin: 0;  }
+#header .name, #header .subheading { display: block; }
+#header .name { font-size: 2.5em; }
+#header .subheading { font-size: 1.5em; }
+
+/* Menu Nav styles */
+#MenuNav {
+  text-align: center; margin: 0; padding: 2px 0; font-size: 1.2em;
+  border-top: solid 1px #777; border-bottom: solid 1px #777;
+}
+#MenuNav li { display: inline-block; margin: 5px 10px 5px;  }
+#MenuNav li a { }
+
+/* Dropdown Nav styles */
+#DropdownNav { display: none; font-size: 1em; }
+#ContactMeLink { display: none; }
+
+
+
+/* Content styles */
+#content { padding: 130px 25px 0; }
+#content h2 { font-size: 1.4em; margin-bottom: 25px; }
+#content .entry { margin: 10px 0 20px; padding-bottom: 15px; border-bottom: solid 1px #777; }
+#content .entry:last-child { border-bottom: none; }
+#content .entry .thumb { float: left; margin-right: 10px; }
+#content .entry .thumb img { border: solid 1px rgb(100,100,100); }
+
+/* Content Proficiencies specific styles */
+#content .proficiencies li { padding-bottom: 5px; margin-bottom: 15px; border-bottom: solid 1px #777; }
+#content .proficiencies li:last-child { border-bottom: none; }
+#content .proficiencies li h3 { font-size: 1.1em; }
+#content .proficiencies li h4 { }
+#content .proficiencies li h4 .rank { color: rgb(185, 26, 26); }
+
+/* Content Design Philosophy specific styles */
+
+#content .design_philosophy > p { margin-bottom: 30px; }
+#content .design_philosophy li { padding-bottom: 5px; margin-bottom: 15px; border-bottom: solid 1px #777; }
+#content .design_philosophy li:last-child { border-bottom: none; }
+
+
+/* Footer styles */
+#footer {
+  position: fixed; bottom:0; width: 100%;
+  text-align: center; border-top: solid 1px #777;
+  background-color: rgb(255,255,255);
+}
+#footer p { margin: 5px 0; }
+
+/* Contact Form */
+#simplemodal-container { background-color: transparent !important; border: none !important; }
+.modal {
+/*  position: fixed; top:10%; left:7%; width: 80%; */
+  display:none; padding: 10px; height: 95%;
+  font-size: 1.1em; background-color: rgb(245, 245, 245); border: solid 2px #667;
+}
+.menubar { text-align: right; margin-bottom: 10px; }
+.menubar .closeButton { width: 50px; background-color: rgb(255, 100, 100); border: solid 1px rgb(175, 175, 175); }
+
+/* ContactForm specific styles */
+#ContactForm .display div {  }
+#ContactForm label, #ContactForm input[type=text], #ContactForm textarea#EmailBody, #ContactForm #EmailSend
+{ display: block; width: 95%; font-size: 1.1em; margin: 0 auto 10px; }
+#ContactForm label { margin: 0 auto; }
+#ContactForm textarea#EmailBody { height: 10em; }
+#ContactForm #EmailSend { border-radius: 4px; background-color: rgb(240, 240, 240); }
+
+/* CodeSampleModal specific styles */
+#CodeSampleModal .display {
+  background-color: rgb(255, 255, 205); border: solid 1px rgb(155,155,155);
+  overflow: auto; font: 0.9em 'Courier New';
+  height: 92%;
+}
