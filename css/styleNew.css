@@ -63,7 +63,7 @@ p { line-height: 1.5em; }
 #simplemodal-container { background-color: transparent !important; border: none !important; }
 .modal {
 /*  position: fixed; top:10%; left:7%; width: 80%; */
-  display:none; padding: 10px; height: 95%;
+  display:none; padding: 10px; height: 95%; overflow: auto;
   font-size: 1.1em; background-color: rgb(245, 245, 245); border: solid 2px #667;
 }
 .menubar { text-align: right; margin-bottom: 10px; }
