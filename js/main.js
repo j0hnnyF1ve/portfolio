@@ -74,14 +74,15 @@
 
        function handleErrors() {
          var message = '';
-         if(response.message.length > 0) {
+         if(response.message && response.message.length > 0) {
            message = '<div>' + response.message + '<ul style="text-transform: capitalize">' + message + '</ul>';
 
            for(index in response.data)
            { message += '<li>' + response.data[index] + '</li>'; }
-
-           $('#ContactForm .statusMessage').html( message );
          }
+         else if(response.success) { message += "There may have been an issue: " + response.success; }
+         else { message += "An unknown error occurred."; }
+         $('#ContactForm .statusMessage').html( message );
        }
     }
 
