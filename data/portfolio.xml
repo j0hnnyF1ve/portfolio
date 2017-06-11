@@ -6,7 +6,7 @@
     ]]></link>
     <imgSrc>img/thailandPreview125x90.jpg</imgSrc>
     <description><![CDATA[
-      <p>The first entry into my new side project, a photo gallery templating system.  For basic photo galleries, sites like Facebook, Instagram, and Flickr work great, but I wanted something where I could have more control on the display of the images.  This one is more of a simple slideshow with animation and text, it makes for a decent display of my front-end abilities.</p>
+      <p>A side project, a photo gallery templating system.  For basic photo galleries, sites like Facebook, Instagram, and Flickr work great, but I wanted something where I could have more control on the display of the images.  This one is more of a simple slideshow with animation and text.</p>
     ]]></description>
   </entry>
   <entry>
@@ -17,6 +17,7 @@
       <p>Magnify360.com is a company that does website optimization for large and medium sized companies. I've done work ranging from setting up a backend site to enable lead generation to front end development. Most of the work I've done there involve taking Photoshop mockups from various designers, slicing them up, andcreating HTML/Javascript/CSS code out of it that works across all browsers. I make every effort to make sure sites created are pixel perfect and designed to spec. You can take a look at some of my better efforts by clicking on the link.</p>
     ]]></description>
   </entry>
+<!--
   <entry>
     <name>xAutomator</name>
     <link><![CDATA[xAutomator/login.php]]></link>
@@ -35,7 +36,7 @@
       <p>I also did some miscellaneous updates to the site as well, but the Professor Ratings section was definitely the major addition that I and a colleague of mine made to the site.  Since MonsterTrade.com my skill set has improved immensely, but I still look back fondly on this project, as it's a milestone representing what I was able to accomplish in only six months in this field.</p>
     ]]></description>
   </entry>
-
+-->
 <!--
   <entry>
     <name></name>
