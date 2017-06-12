@@ -32,7 +32,9 @@ p { line-height: 1.5em; }
 #content h2 { font-size: 1.4em; margin-bottom: 25px; }
 #content .entry {
   margin: 10px 0 20px; padding-bottom: 15px;
-  min-height: 160px; border-bottom: solid 1px #777; }
+  min-height: 160px; border-bottom: solid 1px #777;
+  overflow: auto;
+}
 #content .entry:last-child { border-bottom: none; }
 #content .entry .thumb { float: left; margin-right: 10px; }
 #content .entry .thumb img { border: solid 1px rgb(100,100,100); }
