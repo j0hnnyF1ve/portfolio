@@ -1,6 +1,20 @@
 <?xml version="1.0"?>
 <portfolio>
   <entry>
+    <name>Disney/ABC Project - OTV (Owned TV Stations) Video Page</name>
+    <link><![CDATA[index.php?page=disney]]></link>
+    <imgSrc>assets/Disney/2017.06.11_VideoPageLive_300x148.png</imgSrc>
+    <description><![CDATA[
+      <p>One of my first major projects using AngularJS.  ABC's Owned TV Stations needed a new video page to replace their old, outdated site.</p>
+
+      <p>Of note is how I was able to build components using AngularJS to streamline the development and prototyping process.  I was able to produce new prototypes and front end designs at a rapid pace.</p>
+
+      <p>As of 2017, the project is still live on the 8 ABC Owned TV Stations. </p>
+
+      <p><a href="//abc7.com/video/" target="_blank">Los Angeles ABC7 Link</a> </p>
+    ]]></description>
+  </entry>
+  <entry>
     <name>Sample Photo Gallery - Beaches and Scenery of Thailand</name>
     <link><![CDATA[http://photogallery.aroadalittlelesstraveled.com/index.php?page=gallery&galleryType=special-slideshow&currentGallery=Beaches%20and%20Scenery%20of%20Thailand
     ]]></link>
