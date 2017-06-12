@@ -3,7 +3,7 @@
   <entry>
     <name>Disney/ABC Project - OTV (Owned TV Stations) Video Page</name>
     <link><![CDATA[index.php?page=disney]]></link>
-    <imgSrc>assets/Disney/2017.06.11_VideoPageLive_300x148.png</imgSrc>
+    <imgSrc>assets/Disney/VideoPageLive_300x148.png</imgSrc>
     <description><![CDATA[
       <p>One of my first major projects using AngularJS.  ABC's Owned TV Stations needed a new video page to replace their old, outdated site.</p>
 
