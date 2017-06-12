@@ -25,7 +25,7 @@ if( is_file($pageScriptPath) )
   $scriptHtml .= '<script type="text/javascript" src="'. $pageScriptPath.'"></script>';
 }
 
-$menuArray = array('Home' => '', 'About' => 'about', 'Proficiencies' => 'proficiencies', 'Design Philosophy' => 'design_philosophy', 'Code Samples' => 'code_samples');
+$menuArray = array('Home' => dirname($_SERVER["SCRIPT_NAME"]), 'About' => 'about', 'Proficiencies' => 'proficiencies', 'Design Philosophy' => 'design_philosophy', 'Code Samples' => 'code_samples');
 $menuHtml = '';
 foreach($menuArray as $menuName => $menuItem)
 {
