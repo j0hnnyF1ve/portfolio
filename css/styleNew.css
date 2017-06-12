@@ -28,7 +28,7 @@ p { line-height: 1.5em; }
 
 
 /* Content styles */
-#content { padding: 130px 25px 0; }
+#content { padding: 320px 25px 0; }
 #content h2 { font-size: 1.4em; margin-bottom: 25px; }
 #content .entry {
   margin: 10px 0 20px; padding-bottom: 15px;
@@ -100,3 +100,23 @@ p { line-height: 1.5em; }
 #DisneyModal .display img { height: 100%; }
 #DisneyModal .description { overflow: auto; }
 #DisneyModal .controls { text-align: center; position: absolute; bottom: 10px; width: 94%; }
+
+@media screen and (min-width : 210px) {
+  #content { padding: 300px 25px 0; }
+}
+
+@media screen and (min-width : 255px) {
+  #content { padding: 230px 25px 0; }
+}
+
+@media screen and (min-width : 275px) {
+  #content { padding: 200px 25px 0; }
+}
+
+@media screen and (min-width : 405px) {
+  #content { padding: 165px 25px 0; }
+}
+
+@media screen and (min-width : 665px) {
+  #content { padding: 130px 25px 0; }
+}
