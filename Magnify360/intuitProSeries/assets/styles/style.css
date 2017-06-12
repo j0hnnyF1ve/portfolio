@@ -1,0 +1,108 @@
+/* CSS Document */
+body
+{ margin:0; padding:0; color:#505050;}
+
+.clear
+{ clear:both;}
+
+.floatright
+{ float:right !important;}
+
+p,ul li, ul, h1,h2,h3,h4,h5,h6
+{ margin:0; padding:0;}
+
+.homepage
+{ width:867px; margin:0 auto;}
+
+.header
+{ padding:29px 0 23px; width:100%; float:left;}
+
+.header img
+{ float:left;}
+
+.header p
+{ font-family:"Trebuchet MS"; font-weight:bold; font-size:14px; width:300px; float:left; text-align:left; padding:0 0 0 315px; line-height:15px;}
+
+.header p span
+{ color:#f0640f;}
+
+.header img.floatright
+{ padding:8px 0 0 0;}
+
+.container
+{ width:845px; float:left; padding:0 11px; background:url(../images/header.jpg) no-repeat 11px 0; }
+
+.banner
+{font-family:"Trebuchet MS"; padding:7px 0 0 300px; height:217px;}
+
+.banner h6 , .banner h1
+{font-size:22px; font-weight:bold; color:#007dc3;}
+
+.banner h6
+{ line-height:26px;}
+
+.banner h1
+{ font-size:30px; line-height:33px;}
+
+.banner p
+{ font-size:11px; color:#333333; font-family:Verdana, Arial, Helvetica, sans-serif; padding:5px 0 0 0; line-height:1.3em;}
+
+.banner p a 
+{ color:#003399; text-decoration:underline;}
+
+.three_box
+{ width:829px; float:left; padding:18px 0 0 16px;}
+
+.box_one
+{ width:360px;  height:290px; float:left; padding:0 40px 0 15px;}
+
+.box_one h1
+{ font-family:"Trebuchet MS"; font-size:19px; font-weight:bold; color:#336699; padding:0 0 10px 0;}
+
+.box_one a.order_free , .box_one a.try_free
+{ background:url(../images/order_free.gif) no-repeat; width:185px; height:26px; display:block;}
+
+.box_one a.try_free
+{ background:url(../images/try_free.gif) no-repeat; width:136px;}
+
+.box_one ul
+{ padding:0; list-style:none;}
+
+.box_one ul li , .box_one p
+{ font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; padding:0 0 3px 10px; background:url(../images/bullet.gif) no-repeat 2px 4px; line-height:14px; }
+
+.box_one p
+{ padding:15px 0 5px 0; background:none;}
+
+.two
+{ padding-right:0;}
+
+.bonus
+{ background:url(../images/bonus.gif) no-repeat; width:547px; height:102px; margin:0 auto;}
+
+.bonus p
+{ color:#666666; font-size:15px; font-family:"Trebuchet MS"; padding:36px 0 0 80px;}
+
+.bonus p span
+{ font-weight:bold; font-size:18px;}
+
+.prosup {
+font-size:12px !important;
+}
+
+sup {
+font-size:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

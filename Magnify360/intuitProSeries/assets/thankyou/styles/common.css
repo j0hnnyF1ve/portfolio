@@ -1,0 +1,792 @@
+HTML {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+BODY {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+DIV {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+SPAN {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+APPLET {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+OBJECT {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+IFRAME {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+H1 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+H2 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+H3 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+H4 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+H5 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+H6 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+P {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+BLOCKQUOTE {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+PRE {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+A {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+abbr {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+ACRONYM {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+ADDRESS {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+BIG {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+CITE {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+CODE {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+DEL {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+DFN {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+EM {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+FONT {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+INS {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+KBD {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+Q {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+S {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+SAMP {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+SMALL {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+STRIKE {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+STRONG {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+SUB {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+SUP {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+TT {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+VAR {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+B {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+U {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+I {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+CENTER {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+DL {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+DT {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+DD {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+OL {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+UL {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+LI {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+FIELDSET {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+FORM {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+LABEL {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+LEGEND {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+TABLE {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+CAPTION {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+TBODY {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+TFOOT {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+THEAD {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+TR {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+TH {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+TD {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; outline: 0
+}
+OL {
+	LIST-STYLE-TYPE: none
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+Q {
+	quotes: none
+}
+BLOCKQUOTE {
+	quotes: none
+}
+:unknown {
+	outline: 0
+}
+INS {
+	TEXT-DECORATION: none
+}
+DEL {
+	TEXT-DECORATION: line-through
+}
+A IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+:link IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+:visited IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#container {
+	MARGIN: 0px auto; WIDTH: 980px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+#content {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 25px; PADDING-BOTTOM: 25px; WIDTH: 930px; PADDING-TOP: 25px; float:left; border:0;
+}
+#header {
+	DISPLAY: block; MARGIN-BOTTOM: 18px
+}
+#header:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+#header {
+	ZOOM: 1
+}
+#header_logo {
+	FLOAT: left; WIDTH: 170px; MARGIN-RIGHT: 10px; HEIGHT: 75px
+}
+#header_logo_banner {
+	FLOAT: right
+}
+#header_full_banner {
+	MARGIN-LEFT: -25px; MARGIN-RIGHT: -25px
+}
+#footer {
+	MARGIN: 10px auto 18px; WIDTH: 980px; COLOR: #919191; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; POSITION: relative
+}
+#footer:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+#footer {
+	ZOOM: 1
+}
+#copyright_lacerte {
+	FONT-SIZE: 11px; FLOAT: left
+}
+#copyright_proseries {
+	FONT-SIZE: 11px; FLOAT: left
+}
+#footer_links {
+	FLOAT: right
+}
+#footer_links A {
+	FONT-SIZE: 11px; MARGIN-LEFT: 10px; COLOR: #919191
+}
+#footer_fineprint {
+	CLEAR: both; MARGIN-TOP: 5px; DISPLAY: block; FONT-SIZE: 10px; FLOAT: left
+}
+#footer_banner {
+	PADDING-TOP: 18px
+}
+BODY {
+	FONT: 11px/136% Verdana, Arial, Helvetica, sans-serif; COLOR: #505050; PADDING-TOP: 25px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center
+}
+P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 18px
+}
+H1 {
+	MARGIN-TOP: 0px; FONT-WEIGHT: normal; MARGIN-BOTTOM: 6px; FONT-STYLE: normal
+}
+H2 {
+	MARGIN-TOP: 0px; FONT-WEIGHT: normal; MARGIN-BOTTOM: 6px; FONT-STYLE: normal
+}
+.title_block H2 {
+	MARGIN-TOP: 0px; FONT-WEIGHT: normal; MARGIN-BOTTOM: 6px; FONT-STYLE: normal
+}
+H1 {
+	FONT-SIZE: 18px; COLOR: #505050; LINE-HEIGHT: 136%;
+}
+H2 {
+	FONT-SIZE: 16px; MARGIN-BOTTOM: 1px; COLOR: #505050; LINE-HEIGHT: 136%
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; LINE-HEIGHT: 136%; FONT-STYLE: normal;
+}
+H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; LINE-HEIGHT: 136%; FONT-STYLE: normal
+}
+UL {
+	MARGIN-LEFT: 3em
+}
+OL {
+	MARGIN-LEFT: 3em
+}
+UL {
+	LIST-STYLE-TYPE: disc
+}
+OL {
+	LIST-STYLE-TYPE: decimal
+}
+LI {
+	MARGIN-BOTTOM: 7px
+}
+A {
+	COLOR: #365ebf; TEXT-DECORATION: none
+}
+A:link {
+	
+}
+A:visited {
+	
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A:active {
+	
+}
+.caption {
+	FONT-SIZE: 10px; LINE-HEIGHT: 136%
+}
+.description {
+	FONT-SIZE: 11px; LINE-HEIGHT: 136%; width:151px; padding:0 0 6px 0;
+}
+.segment_description {
+	FONT-SIZE: 13px; LINE-HEIGHT: 136%
+}
+.segment_link {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; LINE-HEIGHT: 136%
+}
+.text_button {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 7px; MARGIN: 1px 1px 3px 0px; COLOR: #fff; LINE-HEIGHT: 100%; PADDING-TOP: 10px; BACKGROUND-COLOR: #365ebf
+}
+.link_bullet {
+	DISPLAY: block
+}
+.secondary_link {
+	CLEAR: both; DISPLAY: block; FONT-SIZE: 14px; MARGIN-BOTTOM: 18px; TEXT-ALIGN: center
+}
+.title_block {
+	MARGIN-BOTTOM:24px
+}
+.linkblock_text {
+	MARGIN-BOTTOM: 18px
+}
+.linkblock_images {
+	MARGIN-BOTTOM: 18px
+}
+.linkblock_mixed {
+	MARGIN-BOTTOM: 18px
+}
+.content_block {
+	MARGIN-BOTTOM: 18px
+}
+.form_block {
+	MARGIN-BOTTOM: 18px; float:left;
+}
+.text_block {
+	MARGIN-BOTTOM: 18px
+}
+.image {
+	MARGIN-BOTTOM: 18px
+}
+.widget {
+	MARGIN-BOTTOM: 18px
+}
+.seg_table {
+	MARGIN-BOTTOM: 18px
+}
+.flex_seg_table {
+	MARGIN-BOTTOM: 18px
+}
+UL {
+	MARGIN-BOTTOM: 18px
+}
+OL {
+	MARGIN-BOTTOM: 18px
+}
+.staticblock_images IMG {
+	MARGIN-BOTTOM: 18px
+}
+.staticblock_images DIV {
+	MARGIN-BOTTOM: 18px
+}
+.title_block:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.title_block {
+	ZOOM: 1
+}
+.staticblock_images DIV IMG {
+	MARGIN-BOTTOM: 0px
+}
+.linkblock_mixed A {
+	DISPLAY: block
+}
+.linkblock_mixed IMG {
+	DISPLAY: block
+}
+.linkblock_text A {
+	DISPLAY: block
+}
+.linkblock_images IMG {
+	DISPLAY: block
+}
+.linkblock_mixed IMG {
+	PADDING-TOP: 5px
+}
+.margin_top_5 {
+	PADDING-TOP: 5px
+}
+.content_image_block {
+	CLEAR:none; DISPLAY: block; MARGIN-BOTTOM: 18px; WIDTH:306px; float:left;
+}
+.content_right {
+	FLOAT: left; WIDTH:150px;
+}
+.content_left {
+	FLOAT: left; WIDTH: 300px
+}
+.image_left {
+	FLOAT: left; WIDTH: 150px; MARGIN-RIGHT:0; TEXT-ALIGN: right
+}
+UNKNOWN {
+	MARGIN-RIGHT: 10px
+}
+.image_left TABLE {
+	FLOAT: right
+}
+.image_right TABLE {
+	FLOAT: left
+}
+.seg1_block {
+	FLOAT: left; MARGIN-BOTTOM: 18px
+}
+.seg2_block {
+	FLOAT: left; MARGIN-BOTTOM: 18px
+}
+.seg3_block {
+	FLOAT: left; MARGIN-BOTTOM: 18px
+}
+.seg4_block {
+	FLOAT: left; MARGIN-BOTTOM: 18px
+}
+.seg5_block {
+	FLOAT: left; MARGIN-BOTTOM: 18px
+}
+.seg6_block {
+	FLOAT: left; MARGIN-BOTTOM: 18px
+}
+.seg1_block {
+	WIDTH: 710px
+}
+.seg2_block {
+	WIDTH: 355px
+}
+.seg3_block {
+	WIDTH: 236px
+}
+.seg4_block {
+	WIDTH: 177px
+}
+.seg5_block {
+	WIDTH: 142px
+}
+.seg6_block {
+	WIDTH: 118px
+}
+.seg2_block .text_button {
+	WIDTH: 339px
+}
+.seg3_block .text_button {
+	WIDTH: 220px
+}
+.seg4_block .text_button {
+	WIDTH: 161px
+}
+.seg5_block .text_button {
+	WIDTH: 126px
+}
+.seg6_block .text_button {
+	WIDTH: 102px
+}
+.seg_table TD {
+	WIDTH: 310px
+}
+.flex_seg_table TD {
+	WIDTH: 118px
+}
+.flex_seg_container {
+	OVERFLOW: hidden; WIDTH: 930px
+}
+.widget_930x30 {
+	BACKGROUND: url(widget_930x30.png) no-repeat; WIDTH: 930px; HEIGHT: 30px
+}
+.widget_710x30 {
+	BACKGROUND: url(widget_710x30.png) no-repeat; WIDTH: 710px; HEIGHT: 30px
+}
+.widget_210x30 {
+	BACKGROUND: url(widget_210x30.png) no-repeat; WIDTH: 210px; HEIGHT: 30px
+}
+.widget_350x30 {
+	BACKGROUND: url(widget_350x30.png) no-repeat; WIDTH: 350px; HEIGHT: 30px
+}
+.widget_355x30 {
+	BACKGROUND: url(widget_355x30.png) no-repeat; WIDTH: 355px; HEIGHT: 30px
+}
+.widget_425x30 {
+	BACKGROUND: url(widget_425x30.png) no-repeat; WIDTH: 425px; HEIGHT: 30px
+}
+.widget_495x30 {
+	BACKGROUND: url(widget_495x30.png) no-repeat; WIDTH: 495px; HEIGHT: 30px
+}
+.widget_570x30 {
+	BACKGROUND: url(widget_570x30.png) no-repeat; WIDTH: 570px; HEIGHT: 30px
+}
+.pad_bottom {
+	MARGIN-BOTTOM: 18px
+}
+.pad_top {
+	MARGIN-TOP: 18px
+}
+.block {
+	DISPLAY: block; MARGIN-BOTTOM: 6px
+}
+.clear {
+	CLEAR: both
+}
+.left_margin_5 {
+	MARGIN-LEFT: 5px
+}
+ HTML IMG {
+	; BEHAVIOR: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+        this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+        this.src = "/Templates/ion/IntuitCTG/Masters/blank.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+        this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+        this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
+    ); POSITION: relative
+}
+ HTML .png {
+	; BEHAVIOR: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+        this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+        this.src = "/Templates/ion/IntuitCTG/Masters/blank.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+        this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+        this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
+    ); POSITION: relative
+}
+.section {
+	MARGIN-BOTTOM: 18px
+}
+.section_last {
+	MARGIN-BOTTOM: -18px; padding-top:15px; _padding-top:0px;
+}
+
+*+html .section_last {
+	padding-top:0px; 
+}
+
+.section:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.section_last:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.section {
+	ZOOM: 1
+}
+.section_last {
+	ZOOM: 1
+}
+.section .firstcolumn {
+	MARGIN-LEFT: 0px
+}
+.section .firstcol {
+	MARGIN-LEFT: 0px
+}
+.section_last .firstcolumn {
+	MARGIN-LEFT: 0px
+}
+.section_last .firstcol {
+	MARGIN-LEFT: 0px; width:930px;
+}
+
+.section_last .firstcol1 {
+	MARGIN-LEFT: 0px; width:570px;
+}
+.border {
+	PADDING-LEFT: 5px; MARGIN-LEFT: 4px; BORDER-LEFT: #ddd 1px solid
+}
+.colborder {
+	PADDING-LEFT: 30px; MARGIN-LEFT: 29px; BORDER-LEFT: #ddd 1px solid
+}
+HR {
+	CLEAR: both; BACKGROUND: #ddd; FLOAT: none; MARGIN: 0px 0px 1.5em; WIDTH: 100%; COLOR: #ddd; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 1px; BORDER-BOTTOM-STYLE: none
+}
+HR.space {
+	BACKGROUND: #fff; COLOR: #fff
+}
+.box {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; BACKGROUND: #eee; MARGIN-BOTTOM: 18px; PADDING-BOTTOM: 15px; PADDING-TOP: 15px
+}
+.grid1 {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid2 {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid3 {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid4 {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid5 {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid5b {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid6 {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid7 {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid7b {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid8 {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid9 {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid10 {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid11 {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid12 {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid4b {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid4c {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.grid1 {
+	WIDTH: 50px
+}
+.grid2 {
+	WIDTH: 110px
+}
+.grid3 {
+	WIDTH: 170px
+}
+.grid4 {
+	WIDTH: 210px
+}
+.grid4b {
+	WIDTH: 280px
+}
+.grid4c {
+	WIDTH: 303px
+}
+.grid5 {
+	WIDTH: 350px
+}
+.grid5b {
+	WIDTH: 425px
+}
+.grid6 {
+	WIDTH:auto;
+}
+.grid7 {
+	WIDTH: 570px
+}
+.grid7b {
+	WIDTH: 495px
+}
+.grid8 {
+	WIDTH: 710px
+}
+.grid9 {
+	WIDTH: 560px
+}
+.grid10 {
+	WIDTH: 590px
+}
+.grid11 {
+	WIDTH: 650px
+}
+.grid12 {
+	WIDTH: 930px
+}
+.content_image_right {
+	PADDING-LEFT: 10px; FLOAT: right; MARGIN-BOTTOM: 18px
+}
+
+/*tabs css*/
+
+#content_hook
+{ float:left;}
+
+#ball_sidebar_image1_flashwrap
+{ background:url(../images/570x599_int2tab_lefton.jpg) no-repeat; width:570px; height:599px;}
+
+.tabs
+{ float:left; width:570px;}
+
+.tabs ul
+{ margin:0; padding:10px; float:left; list-style:none;}
+
+.tabs ul li
+{ font-size:14px; font-weight:bold; color:#000; float:left; width:180px; padding:10px 30px 10px 10px; text-align:center;}
+
+.tabs ul li a , .tabs ul li a:hover
+{ text-decoration:none; color:#000;}
+
+#ball_sidebar_image1_flashwrap h1
+{ font-size:22px; color:#4070a0; font-weight:bold; margin:0; line-height:21px;}
+
+.pro_cont p
+{ font-size:12px; padding:5px 0 13px 0; width:315px; margin:0;}
+
+.pro_cont ul
+{ margin:0; padding:0 0 0 0px; width:270px; list-style:none;}
+
+.pro_cont ul li
+{ font-size:11px; font-weight:bold; color:#434343; background:url(../images/bullets.gif) no-repeat 0 4px; padding:0 0 16px 15px; margin:0;}
+
+.pro_cont
+{ padding:25px 0 0 235px; float:left;}
+
+.pro_cont p.arrow
+{ background:url(../images/arrow.gif) no-repeat; padding:0 0 50px 18px; margin:20px 0 0px 15px; float:left; width:120px; clear:both;}
+
+.pro_cont p.arrow a
+{ font-size:12px; color:#3a68c3; text-decoration:none; font-weight:bold;}
+
+.testimonials
+{ background:url(../images/testimonial.gif) no-repeat 23px 4px; font-size:11px; color:#343434; float:left; padding:0 0 0 45px; width:475px; line-height:18px;}
+
+.testimonials span
+{ float:right; font-weight:bold; font-size:11px; color:#444444;}
+
+.testimonials2
+{ background:url(../images/teatimonial2.gif) no-repeat 72px 6px; font-size:11px; color:#343434; float:left; padding:5px 0 0 95px; width:415px; line-height:18px;}
+
+.testimonials2 span
+{ float:right; font-weight:bold; font-size:11px; color:#444444;}
+
+#ball_content_banner_image_flashwrap {
+background:transparent url(/client_files/client_1263/dialog_styles/1000097/thankyou/images/proseries_banner.jpg) no-repeat scroll 0 0;
+height:290px;
+padding:25px 0 20px 319px;
+width:611px;
+}
+
+#ball_content_banner_image_flashwrap h1 {
+color:#333333;
+font-family:Trebuchet MS;
+font-size:24px;
+font-weight:bold;
+line-height:29px;
+padding:0 0 10px;
+}
+
+#ball_content_banner_image_flashwrap h2 {
+color:#333333;
+font-family:Trebuchet MS;
+font-size:14px;
+font-weight:bold;
+line-height:17px;
+padding:0 0 7px;
+}
+
+#ball_content_banner_image_flashwrap p {
+color:#333333;
+font-family:trebuchet MS;
+font-size:14px;
+line-height:18px;
+padding:10px 0 0;
+}

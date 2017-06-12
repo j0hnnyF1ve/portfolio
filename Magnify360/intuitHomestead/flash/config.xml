@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<var k="baseURL" v="/client_files/client_5155/sm/19194/flash/" t="string"/>
+	<var k="bgSoundMaxVol2" v="15" t="number"/>
+	<var k="startupMovie" v="n0101" t="string"/>
+	<var k="tryItFreeURL" v="/client_files/client_5155/sm/19194/start.ffhtml?SPTID=LoWebsiteTour_FreeButtonFlash&TARGET=19194/TrialSignup.ffhtml" t="string"/>
+	<var k="n0101" v="n0101.swf" t="string"/>
+</config>
