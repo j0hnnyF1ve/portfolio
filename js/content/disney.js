@@ -7,23 +7,31 @@ var Disney = generateDisney();
 var UI = generateUI();
 
 $(function() {
-  DisneyDialog = new Dialog( {width: "85%", height: "85%", id: 'DisneyModal'} );
+  DisneyDialog = new Dialog( {width: "85%", height: "85%", id: "DisneyModal"} );
 
   // add a new instance specific method for the Disney Dialog
   DisneyDialog.changeDescription = function(descriptionHtml) {
-    $('#' + this.dialogId + ' .description').html(descriptionHtml);
-  }
-
+    $("#" + this.dialogId + " .description").html(descriptionHtml);
+  };
+  
   // populate the UI with our thumbnails for each section
-  let disneyTypes = Disney.getTypes();
+  const disneyTypes = Disney.getTypes();
   for(let index in disneyTypes ) {
     UI.populate(disneyTypes[index], Disney.getAssets(disneyTypes[index]) );
   }
 
   // set our event handlers
-  $('.imageset img').click( UI.imageClick )
-  $('#DisneyModalPrevious').click( UI.prev );
-  $('#DisneyModalNext').click( UI.next );
+  $(".imageset img").click( function(e) {
+    UI.imageClick.apply(this, [e]);
+    $(window).on("keydown", UI.keydown);
+  } );
+  $("#DisneyModalPrevious").click( UI.prev );
+  $("#DisneyModalNext").click( UI.next );
+
+  DisneyDialog.addListener("close", function(e) {
+    $(window).off("keydown", UI.keydown);
+  });
+
 });
 
 function generateUI() {
@@ -31,7 +39,22 @@ function generateUI() {
   function populate(className, assets) {
     for(let i=0; i < assets.length; i++) {
       let asset = assets[i];
-      $('.'+ className +' .imageset').append( Helper.createThumb(asset, i) );
+      $("."+ className +" .imageset").append( Helper.createThumb(asset, i) );
+    }
+  }
+
+  function keydownHandler(e) {
+    var key = e.key || e.which || e.keyCode || 0;
+
+    switch(key) {
+      case "37": // Previous Action
+      case "ArrowLeft":
+        prevHandler(e);
+        break;
+      case "39": // Next Action
+      case "ArrowRight":
+        nextHandler(e);
+        break;
     }
   }
 
@@ -40,7 +63,7 @@ function generateUI() {
     Disney.setActiveType( this.dataset.type );
     Disney.setIndex( this.dataset.index );
     DisneyDialog.changeDisplay( Helper.createImage( this.dataset ) );
-    DisneyDialog.changeDescription( $('<p>' + this.dataset.description + '</p>') );
+    DisneyDialog.changeDescription( $("<p>" + this.dataset.description + "</p>") );
     DisneyDialog.openModal();
   }
 
@@ -48,19 +71,20 @@ function generateUI() {
     e.preventDefault();
     Disney.prev();
     DisneyDialog.changeDisplay( Helper.createImage( Disney.getCurrentImage() ) );
-    DisneyDialog.changeDescription( $('<p>' + Disney.getCurrentImage().description + '</p>') );
+    DisneyDialog.changeDescription( $("<p>" + Disney.getCurrentImage().description + "</p>") );
   }
 
   function nextHandler(e) {
     e.preventDefault();
     Disney.next();
     DisneyDialog.changeDisplay( Helper.createImage( Disney.getCurrentImage() ) );
-    DisneyDialog.changeDescription( $('<p>' + Disney.getCurrentImage().description + '</p>') );
+    DisneyDialog.changeDescription( $("<p>" + Disney.getCurrentImage().description + "</p>") );
   }
 
   return {
     populate : populate,
     imageClick : imageClickHandler,
+    keydown : keydownHandler,
     prev : prevHandler,
     next : nextHandler
   }
@@ -89,7 +113,7 @@ function generateHelper() {
 }
 
 function generateDisney() {
-  var _active = 'features';
+  var _active = "features";
   var _current = 0; // current index
 
   var _assets = {
@@ -237,7 +261,7 @@ function generateDisney() {
     ]
   }
 
-  var _types = ['features', 'responsive', 'analytics', 'prototypeEmbed', 'prototypeMyNews', 'prototypeTube'];
+  var _types = ["features", "responsive", "analytics", "prototypeEmbed", "prototypeMyNews", "prototypeTube"];
 
   for(let i=0; i < _types.length; i++) {
     for(let j=0; j < _assets[_types[i]].length; j++) {
@@ -254,7 +278,7 @@ function generateDisney() {
   }
 
   function setActiveType(active) {
-    _active = (  (_types).includes(active) ) ? active : '';
+    _active = (  (_types).includes(active) ) ? active : "";
   }
 
   function getActiveType() { return _active; }
