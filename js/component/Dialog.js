@@ -41,7 +41,11 @@ Dialog.prototype = {
             overlayCss: { backgroundColor: "rgb(0,0,0)" },
             containerCss: { backgroundColor: "rgb(255,255,255)", border: "solid 1px black", width: this.dialogWidth, height: this.dialogHeight, overflow: "hidden"},
             onOpen: function(dialog) {
-              dialog.overlay.fadeIn(300, function() { dialog.container.show(); dialog.data.show(); } );
+              var self = this;
+              dialog.overlay.fadeIn(300, function() {
+                dialog.container.show(); dialog.data.show();
+                $(dialog.overlay).on( 'click', function() { self.close() } );
+              } );
               for(let listener of listeners["open"]) { listener.apply(dialog, arguments); }
             },
             onClose: function(dialog) {
