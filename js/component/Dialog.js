@@ -39,7 +39,8 @@ Dialog.prototype = {
             autoResize: true,
             escClose: true,
             overlayCss: { backgroundColor: "rgb(0,0,0)" },
-            containerCss: { backgroundColor: "rgb(255,255,255)", border: "solid 1px black", width: this.dialogWidth, height: this.dialogHeight, overflow: "hidden"},
+//            containerCss: { backgroundColor: "rgb(255,255,255)", border: "solid 1px black", width: this.dialogWidth, height: this.dialogHeight, overflow: "hidden"},
+            containerCss: { width: this.dialogWidth, height: this.dialogHeight, overflow: "hidden"},
             onOpen: function(dialog) {
               var self = this;
               dialog.overlay.fadeIn(300, function() {
