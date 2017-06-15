@@ -1,0 +1,4 @@
+19316
+* Good example of a CSS layout off a PSD
+* Need to change file paths in order to make this work
+* Took about 8 hours to do
