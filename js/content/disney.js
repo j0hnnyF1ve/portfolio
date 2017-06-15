@@ -13,7 +13,7 @@ $(function() {
   DisneyDialog.changeDescription = function(descriptionHtml) {
     $("#" + this.dialogId + " .description").html(descriptionHtml);
   };
-  
+
   // populate the UI with our thumbnails for each section
   const disneyTypes = Disney.getTypes();
   for(let index in disneyTypes ) {
@@ -159,104 +159,117 @@ function generateDisney() {
     analytics : [
       { thumb: "assets/Disney/prototypes/analytics/bar_chart_thumb.jpg",
         src: "assets/Disney/prototypes/analytics/bar_chart.jpg",
-        description: "Bar Chart Tab",
-        alt: "Bar Chart Tab"
+        description: "Bar Chart - An Example of a Bar Chart in the Analytics app.",
+        alt: "Bar Chart"
       },
       { thumb: "assets/Disney/prototypes/analytics/line_chart_thumb.jpg",
         src: "assets/Disney/prototypes/analytics/line_chart.jpg",
-        description: "Line Chart Tab",
+        description: "Line Chart - An Example of a Line Chart in the Analytics app.",
         alt: "Line Chart Tab"
       },
       { thumb: "assets/Disney/prototypes/analytics/channels_thumb.jpg",
         src: "assets/Disney/prototypes/analytics/channels.jpg",
-        description: "Channel Metrics Tab",
+        description: "Channel Metrics Tab - Shows how the 8 different stations are performing.",
         alt: "Channel Metrics Tab"
       },
       { thumb: "assets/Disney/prototypes/analytics/clips_thumb.jpg",
         src: "assets/Disney/prototypes/analytics/clips.jpg",
-        description: "Video Clips Metrics Tab",
+        description: "Video Clips Metrics Tab - Shows video clip performance, can sort by " +
+        "popularity to see the most popular clips, and duration to see which videos were most " +
+        "engaging to the user.",
         alt: "Video Clips Metrics Tab",
       },
       { thumb: "assets/Disney/prototypes/analytics/daily_thumb.jpg",
         src: "assets/Disney/prototypes/analytics/daily.jpg",
-        description: "Daily Metrics Tab",
+        description: "Daily Metrics Tab - See the daily performance of videos for a given station, " +
+        "across a series of different metrics",
         alt: "Daily Metrics Tab"
       },
       { thumb: "assets/Disney/prototypes/analytics/search_thumb.jpg",
         src: "assets/Disney/prototypes/analytics/search.jpg",
-        description: "Search Metrics Tab",
+        description: "Search Metrics Tab - See how the search bar was being used by our users. ",
         alt: "Search Metrics Tab"
       },
       { thumb: "assets/Disney/prototypes/analytics/tags_thumb.jpg",
         src: "assets/Disney/prototypes/analytics/tags.jpg",
-        description: "Tags Metrics Tab",
+        description: "Tags Metrics Tab - Aggregated data sorted by tags on the video clip.",
         alt: "Tags Metrics Tab"
       }
     ],
     prototypeEmbed : [
       { thumb: "assets/Disney/prototypes/embed/embed_thumb.jpg",
         src: "assets/Disney/prototypes/embed/embed.jpg",
-        description: "Embedded Clips Experience",
+        description: "Embedded Clips Experience - Note that it is stripped down to just the video " +
+        "player and playlist.",
         alt: "Embedded Clips Experience"
       }
     ],
     prototypeMyNews : [
       { thumb: "assets/Disney/prototypes/mynews/dashboard_1_thumb.jpg",
         src: "assets/Disney/prototypes/mynews/dashboard_1.jpg",
-        description: "My News Experience Dashboard",
-        alt: "My News Experience Dashboard"
+        description: "My News Experience Dashboard - The dashboard allows the user to select up to three " +
+        "themes which we used to generate a custom playlist for them.",
+        alt: "My News Experience Dashboard",
       },
       { thumb: "assets/Disney/prototypes/mynews/dashboard_2_thumb.jpg",
         src: "assets/Disney/prototypes/mynews/dashboard_2.jpg",
-        description: "My News Experience Dashboard - Bottom Menu",
+        description: "My News Experience Dashboard - Bottom Display shows up when selections are made, " +
+        "the user can also select how long they want their viewing experience at this point.",
         alt: "My News Experience Dashboard"
       },
       { thumb: "assets/Disney/prototypes/mynews/dashboard_3_thumb.jpg",
         src: "assets/Disney/prototypes/mynews/dashboard_3.jpg",
-        description: "My News Experience Dashboard - Highlight",
-        alt: "My News Experience Dashboard - Selection Highlight"
+        description: "My News Experience Dashboard - Selection Highlight, selections were highlighted with, " +
+        " a light yellow border, while rollovers caused the item to glow light blue.",
+        alt: "My News Experience Dashboard "
       },
       { thumb: "assets/Disney/prototypes/mynews/dashboard_transition_thumb.jpg",
         src: "assets/Disney/prototypes/mynews/dashboard_transition.jpg",
-        description: "My News Experience Dashboard - Transition",
+        description: "My News Experience Dashboard - Transition from dashboard to video/playlist.",
         alt: "My News Experience Dashboard - Transition"
       },
       { thumb: "assets/Disney/prototypes/mynews/mynews_thumb.jpg",
         src: "assets/Disney/prototypes/mynews/mynews.jpg",
-        description: "My News Experience - Video Page 1",
+        description: "My News Experience - Video Page 1 - The video page and playlist generated " +
+        "for the user.",
         alt: "My News Experience - Video Page 1"
       },
       { thumb: "assets/Disney/prototypes/mynews/mynews_2_thumb.jpg",
         src: "assets/Disney/prototypes/mynews/mynews_2.jpg",
-        description: "My News Experience - Video Page 2",
+        description: "My News Experience - Video Page 2 - The video page and playlist generated " +
+        "for the user.",
         alt: "My News Experience - Video Page 2",
       }
     ],
     prototypeTube : [
       { thumb: "assets/Disney/prototypes/tube/dashboard_thumb.jpg",
         src: "assets/Disney/prototypes/tube/dashboard.jpg",
-        description: "Tube Experience - Dashboard",
-        alt: "Tube Experience - Dashboard",
+        description: "Tube Experience - Dashboard - A different, earlier version of the dashboard.",
+        alt: "Tube Experience - Dashboard"
       },
       { thumb: "assets/Disney/prototypes/tube/dashboard_2_thumb.jpg",
         src: "assets/Disney/prototypes/tube/dashboard_2.jpg",
-        description: "Tube Experience - Dashboard 2",
-        alt: "Tube Experience - Dashboard 2",
+        description: "Tube Experience - Dashboard 2 - The nav bar also had the same selections as " +
+        "the dashboard, and also had a 'More' dropdown menu to contain elements that would have " +
+        "caused the dashboard to overflow.",
+        alt: "Tube Experience - Dashboard 2"
       },
       { thumb: "assets/Disney/prototypes/tube/tube_display_thumb.jpg",
         src: "assets/Disney/prototypes/tube/tube_display.jpg",
         description: "Tube Experience - Video Page - Note the multiple playlists",
-        alt: "Tube Experience - Video Page",
+        alt: "Tube Experience - Video Page"
       },
       { thumb: "assets/Disney/prototypes/tube/tube_thumb.jpg",
         src: "assets/Disney/prototypes/tube/tube.jpg",
-        description: "Tube Experience - Video Page 2",
-        alt: "Tube Experience - Video Page 2",
+        description: "Tube Experience - Video Page 2 - A suggestions overlay is shown after the user is " +
+        "finished watching a video.",
+        alt: "Tube Experience - Video Page 2"
       },
       { thumb: "assets/Disney/prototypes/tube/tube_with_search_results_thumb.jpg",
         src: "assets/Disney/prototypes/tube/tube_with_search_results.jpg",
-        description: "Tube Experience - Search Results",
-        alt: "Tube Experience - Search Results",
+        description: "Tube Experience - Search Results - A search playlist is generated as the " +
+        " user types in the Search Box",
+        alt: "Tube Experience - Search Results"
       }
     ]
   }
