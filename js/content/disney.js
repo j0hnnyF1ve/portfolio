@@ -5,8 +5,17 @@ var DisneyDialog = null;
 var Helper = generateHelper();
 var Disney = generateDisney();
 var UI = generateUI();
+var PreloaderManager = generatePreloaderManager();
 
 $(function() {
+  const disneyTypes = Disney.getTypes();
+  var thumbUrlList = Disney.getThumbList();
+  var imageUrlList = Disney.getUrlList();
+
+  PreloaderManager.addLoader('thumb', generatePreloader('thumb') );
+  PreloaderManager.getLoader('thumb').addList(thumbUrlList);
+  PreloaderManager.getLoader('thumb').loadImages();
+
   DisneyDialog = new Dialog( {width: "85%", height: "85%", id: "DisneyModal"} );
 
   // add a new instance specific method for the Disney Dialog
@@ -15,7 +24,6 @@ $(function() {
   };
 
   // populate the UI with our thumbnails for each section
-  const disneyTypes = Disney.getTypes();
   for(let index in disneyTypes ) {
     UI.populate(disneyTypes[index], Disney.getAssets(disneyTypes[index]) );
   }
@@ -27,6 +35,7 @@ $(function() {
   } );
   $("#DisneyModalPrevious").click( UI.prev );
   $("#DisneyModalNext").click( UI.next );
+  $("#content").on("mouseover", UI.contentMouseover );
 
   DisneyDialog.addListener("close", function(e) {
     $(window).off("keydown", UI.keydown);
@@ -40,6 +49,20 @@ function generateUI() {
     for(let i=0; i < assets.length; i++) {
       let asset = assets[i];
       $("."+ className +" .imageset").append( Helper.createThumb(asset, i) );
+    }
+  }
+
+  function contentMouseoverHandler(e) {
+    const sections = ["features", "responsive", "analytics", "prototypeEmbed", "prototypeMyNews", "prototypeTube"];
+    var classname = e.target.className.replace("entry ", "");
+
+    if(!sections.includes(classname) ) { classname = e.target.parentNode.className.replace("entry ", ""); }
+    if(!sections.includes(classname) ) { return; }
+
+    PreloaderManager.addLoader(classname, generatePreloader(classname) );
+    PreloaderManager.getLoader(classname).addList( Disney.getUrlList(classname) );
+    if( PreloaderManager.getLoader(classname).haveImagesStartedLoading() === false) {
+      PreloaderManager.getLoader(classname).loadImages();
     }
   }
 
@@ -86,7 +109,8 @@ function generateUI() {
     imageClick : imageClickHandler,
     keydown : keydownHandler,
     prev : prevHandler,
-    next : nextHandler
+    next : nextHandler,
+    contentMouseover: contentMouseoverHandler
   }
 }
 
@@ -286,9 +310,29 @@ function generateDisney() {
     return (  (_types).includes(type) ) ? _assets[type] : [];
   }
 
-  function getTypes() {
-    return _types;
+  function getThumbList(inputType) {
+    var imageUrlList = [];
+    for(let type of _types) {
+      if(inputType && inputType.length > 0 && type != inputType) { continue; }
+      let assets = getAssets(type);
+      for(let asset of assets) { imageUrlList.push( asset.thumb ); }
+    }
+    return imageUrlList;
   }
+
+  function getUrlList(inputType) {
+    var imageUrlList = [];
+
+    // if an inputType is specified, we will only return the urls for the type specified
+    for(let type of _types) {
+      if(inputType && inputType.length > 0 && type != inputType) { continue; }
+      let assets = getAssets(type);
+      for(let asset of assets) { imageUrlList.push( asset.src ); }
+    }
+    return imageUrlList;
+  }
+
+  function getTypes() { return _types; }
 
   function setActiveType(active) {
     _active = (  (_types).includes(active) ) ? active : "";
@@ -309,6 +353,8 @@ function generateDisney() {
   return {
     // methods
     getAssets : getAssets,
+    getUrlList : getUrlList,
+    getThumbList : getThumbList,
     getTypes : getTypes,
     setActiveType : setActiveType,
     getActiveType : getActiveType,
@@ -317,6 +363,92 @@ function generateDisney() {
     prev : prev,
     next : next,
     getCurrentImage : getCurrentImage
+  };
+}
+
+function generatePreloaderManager() {
+  var _loaders = [];
+
+  function addLoader(type, loader) {
+    if(!_loaders[type]) { _loaders[type] = loader; }
+  }
+  function getLoader(type) { return _loaders[type] || null; }
+  function isLoader(type) { return (_loaders[type] === undefined); }
+  function removeLoader(loader) {
+    for(let i=0; i < _loaders.length; i++) {
+      if(loader === _loaders[i]) { _loaders.splice(i, 1); }
+    }
+  }
+
+  return {
+    addLoader : addLoader,
+    getLoader : getLoader,
+    isLoader : isLoader,
+    removeLoader : removeLoader
+  }
+}
+
+function generatePreloader(inputName) {
+  var _imageUrlList = [];
+  var _name = inputName || "";
+  var _count = 0;
+  var _listeners = [];
+  var _startedLoading = false;
+
+  function _imageHasBeenLoaded(e) {
+    console.log(this.src, " has been loaded into the cache.");
+    _count++;
+    if(_count >= _imageUrlList.length) { _allImagesLoaded(e); }
+  }
+
+  // fire off any listeners relying on the Image Preloader's completion
+  function _allImagesLoaded() {
+    _startedLoading = false;
+    console.log("All images have been loaded for " + _name + ".");
+    for(let listener of _listeners) {
+      listener.apply(this, arguments);
+    }
+  }
+
+  function _loadImage(imageUrl) {
+    console.log("Loading " + imageUrl);
+    var img = new Image();
+    img.addEventListener("load", _imageHasBeenLoaded);
+    img.src = imageUrl;
+  }
+
+  function addImage(imageUrl) { _imageUrlList.push(imageUrl); }
+  function addList(list) { _imageUrlList = list; }
+
+  function haveImagesStartedLoading() { return (_startedLoading === true || _count > 0); }
+  function haveImagesLoaded() { return (_count >= _imageUrlList.length); }
+
+
+  // load all the images in the list
+  function loadImages() {
+    _count = 0; _startedLoading = true;
+    for(let url of _imageUrlList) { _loadImage(url); }
+  }
+
+  function addListener(listener) { _listeners.push(listener); }
+
+  function removeListener(listener) {
+    for(let i=0; i < _listeners.length; i++) {
+      if(listener === _listeners[i]) { _listeners.splice(i, 1); }
+    }
+  }
+
+  function getListeners() { return _listeners; }
+
+  return {
+    addImage : addImage,
+    addList : addList,
+    haveImagesStartedLoading : haveImagesStartedLoading,
+    haveImagesLoaded : haveImagesLoaded,
+    loadImages : loadImages,
+    addListener : addListener,
+    removeListener : removeListener,
+    getListeners : getListeners
   };
 }
 
