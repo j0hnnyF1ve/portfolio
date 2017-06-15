@@ -135,7 +135,7 @@ function generateDisney() {
       },
       { thumb: "assets/Disney/features/search_thumb.jpg",
         src: "assets/Disney/features/search.jpg",
-        description: "The search bar shows up when the user starts typing, similar to an auto-suggest",
+        description: "The search bar shows up when the user starts typing, similar to an auto-suggest.",
         alt: "App Search Bar"
       }
     ],
@@ -182,7 +182,7 @@ function generateDisney() {
       { thumb: "assets/Disney/prototypes/analytics/daily_thumb.jpg",
         src: "assets/Disney/prototypes/analytics/daily.jpg",
         description: "Daily Metrics Tab - See the daily performance of videos for a given station, " +
-        "across a series of different metrics",
+        "across a series of different metrics.",
         alt: "Daily Metrics Tab"
       },
       { thumb: "assets/Disney/prototypes/analytics/search_thumb.jpg",
@@ -256,7 +256,7 @@ function generateDisney() {
       },
       { thumb: "assets/Disney/prototypes/tube/tube_display_thumb.jpg",
         src: "assets/Disney/prototypes/tube/tube_display.jpg",
-        description: "Tube Experience - Video Page - Note the multiple playlists",
+        description: "Tube Experience - Video Page - Note the multiple playlists.",
         alt: "Tube Experience - Video Page"
       },
       { thumb: "assets/Disney/prototypes/tube/tube_thumb.jpg",
@@ -268,7 +268,7 @@ function generateDisney() {
       { thumb: "assets/Disney/prototypes/tube/tube_with_search_results_thumb.jpg",
         src: "assets/Disney/prototypes/tube/tube_with_search_results.jpg",
         description: "Tube Experience - Search Results - A search playlist is generated as the " +
-        " user types in the Search Box",
+        " user types in the Search Box.",
         alt: "Tube Experience - Search Results"
       }
     ]
