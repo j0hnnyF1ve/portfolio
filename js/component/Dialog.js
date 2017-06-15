@@ -65,7 +65,6 @@ Dialog.prototype = {
      if(!listenerType.includes(type) ) { return; }
 
      listeners[type].push(listener);
-     console.log(listeners);
    },
    removeListener : function(type, listener) {
      if(!listenerType.includes(type) ) { return; }
@@ -73,7 +72,6 @@ Dialog.prototype = {
      for(let i=0; i < listeners[type].length; i++) {
        if(listener === listeners[type][i]) { listeners[type].splice(i, 1); }
      }
-     console.log(listeners);
    },
    getListeners : function(type) {
      if(!listenerType.includes(type) ) { return; }
