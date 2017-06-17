@@ -153,7 +153,7 @@
     formHtml += '<input type="hidden" type="text" name="_gotcha"';
     formHtml += '</form>';
 
-    ContactForm = new Dialog( {width: "80%", height: "475px", id: 'ContactForm'} );
+    ContactForm = new Dialog( {width: "80%", height: "525px", id: 'ContactForm'} );
     ContactForm.changeDisplay(formHtml);
 
 /*
