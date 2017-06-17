@@ -15,6 +15,16 @@
     ]]></description>
   </entry>
   <entry>
+    <name>Dressmaker Demo</name>
+    <link><![CDATA[http://dressmaker.johnpangilinan.com/]]></link>
+    <imgSrc>img/dressmaker_thumb.jpg</imgSrc>
+    <description><![CDATA[
+      <p>A proof of concept I did for a prospective client.  The idea was to allow a user to configure
+        their dress according to a series options we presented them, and depending on the options,
+        we present them with more options to build their custom dress.</p>
+    ]]></description>
+  </entry>
+  <entry>
     <name>Sample Photo Gallery - Beaches and Scenery of Thailand</name>
     <link><![CDATA[http://photogallery.aroadalittlelesstraveled.com/index.php?page=gallery&galleryType=special-slideshow&currentGallery=Beaches%20and%20Scenery%20of%20Thailand
     ]]></link>
