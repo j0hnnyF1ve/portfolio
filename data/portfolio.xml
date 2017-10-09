@@ -1,6 +1,25 @@
 <?xml version="1.0"?>
 <portfolio>
   <entry>
+    <name>Solar System Simulation Demo</name>
+    <link><![CDATA[http://www.johnpangilinan.com/webgl/solar-system/]]></link>
+    <imgSrc>assets/webgl/solar-system.png</imgSrc>
+    <description><![CDATA[
+      <p>A solar system simulation I created using WebGL, Three.js, and GLSL.</p>
+
+      <p>The sun was made using a two spherical shapes in Three.js, with a texture overlaid the inner sphere, and manipulated using GLSL</p>
+
+      <p>Mouse Controls: <br/>
+        Double mouse click + move up/down = zoom<br/>
+        Single mouse click + move = rotate camera<br/>
+      </p>
+
+      <p>Some controls are provided to manipulate the animation of the sun.  I was inspired to do this after watching a lecture by Bret Vector, Inventing on Principle, that discussed giving developers visual tools in order to help build intuition and understand the underlying code better.</p>
+
+      <p>Lecture Link: <a href="https://youtu.be/PUv66718DII" target="_blank">https://youtu.be/PUv66718DII</a></p>
+    ]]></description>
+  </entry>
+  <entry>
     <name>Disney/ABC Project - OTV (Owned TV Stations) Video Page</name>
     <link><![CDATA[index.php?page=disney]]></link>
     <imgSrc>assets/Disney/VideoPageLive_300x148.png</imgSrc>
