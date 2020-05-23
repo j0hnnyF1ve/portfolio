@@ -2,7 +2,17 @@
 <portfolio>
   <entry>
     <name>Solar System Simulation Demo</name>
-    <link><![CDATA[http://www.johnpangilinan.com/webgl/solar-system/]]></link>
+    <link><![CDATA[https://www.johnpangilinan.com/covid19/]]></link>
+    <imgSrc>assets/covid19/screenshot1.png</imgSrc>
+    <description><![CDATA[
+      <p>A COVID-19 application I made so I can make sense of the US data.</p>
+
+      <p>Data source: <a href="https://www.covidtracking.com" target="_blank">The COVID Tracking Project</a></p>
+    ]]></description>
+  </entry>
+  <entry>
+    <name>Solar System Simulation Demo</name>
+    <link><![CDATA[https://www.johnpangilinan.com/webgl/solar-system/]]></link>
     <imgSrc>assets/webgl/solar-system.png</imgSrc>
     <description><![CDATA[
       <p>A solar system simulation I created using WebGL, Three.js, and GLSL.</p>
@@ -35,7 +45,7 @@
   </entry>
   <entry>
     <name>Dressmaker Demo</name>
-    <link><![CDATA[http://dressmaker.johnpangilinan.com/]]></link>
+    <link><![CDATA[https://dressmaker.johnpangilinan.com/]]></link>
     <imgSrc>img/dressmaker_thumb.jpg</imgSrc>
     <description><![CDATA[
       <p>A proof of concept I did for a prospective client.  The idea was to allow a user to configure
@@ -55,9 +65,10 @@
       <p>NOTE #3: Built for Chrome, Camera API may not be available on some browsers, like Safari</p>
     ]]></description>
   </entry>
+<!--
   <entry>
     <name>Sample Photo Gallery - Beaches and Scenery of Thailand</name>
-    <link><![CDATA[http://photogallery.aroadalittlelesstraveled.com/index.php?page=gallery&galleryType=special-slideshow&currentGallery=Beaches%20and%20Scenery%20of%20Thailand
+    <link><![CDATA[https://photogallery.aroadalittlelesstraveled.com/index.php?page=gallery&galleryType=special-slideshow&currentGallery=Beaches%20and%20Scenery%20of%20Thailand
     ]]></link>
     <imgSrc>img/thailandPreview125x90.jpg</imgSrc>
     <description><![CDATA[
@@ -72,6 +83,7 @@
       <p>Magnify360.com is a company that does website optimization for large and medium sized companies. I've done work ranging from setting up a backend site to enable lead generation to front end development. Most of the work I've done there involve taking Photoshop mockups from various designers, slicing them up, andcreating HTML/Javascript/CSS code out of it that works across all browsers. I make every effort to make sure sites created are pixel perfect and designed to spec. You can take a look at some of my better efforts by clicking on the link.</p>
     ]]></description>
   </entry>
+-->    
 <!--
   <entry>
     <name>xAutomator</name>
