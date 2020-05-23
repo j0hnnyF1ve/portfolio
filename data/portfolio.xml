@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
 <portfolio>
   <entry>
-    <name>Solar System Simulation Demo</name>
+    <name>COVID-19 Visualization Web App</name>
     <link><![CDATA[https://www.johnpangilinan.com/covid19/]]></link>
     <imgSrc>assets/covid19/screenshot1.png</imgSrc>
     <description><![CDATA[
-      <p>A COVID-19 application I made so I can make sense of the US data.</p>
+      <p>A COVID-19 application in order to make sense of the US data.</p>
 
+      <p>Tech Stack: D3, Svelte.js, Material UI, Node.js/Express (API Server), Heroku (API Host), 
+        Amazon DynamoDB (persistence), Redis (caching).</p>
       <p>Data source: <a href="https://www.covidtracking.com" target="_blank">The COVID Tracking Project</a></p>
     ]]></description>
   </entry>
